@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.60.0/dist/phaser-arcade-physics.min.js"></script>
+    <script type="module" src="main.js" defer></script>
+    <title>Catch the Pigs</title>
+</head>
+<body>
+    <main>
+        <canvas id="gameCanvas"></canvas>
+        <div id="gameStartDiv" class="gameUI">
+            <img src="assets/pig.png" width="100px"> <br><br>
+            <p>Catch as many pigs as you can in 45 seconds!</p><br>
+            <p>Tips: AVOID THE SMILING POOPS!</p><br>
+            <p>Click Start to begin!</p><br><br>
+            <button id="gameStartBtn">Start</button>
+        </div>
+        <div id="gameEndDiv" class="gameUI">
+            <p>It's over!</p><br>
+            <h1 id="gameEndScoreSpan">Your pigs: </h1><br><br>
+            <p>Refresh the page to play again!</p>
+        </div>
+    </main>
+</body>
+</html>
